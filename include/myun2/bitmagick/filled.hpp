@@ -6,7 +6,7 @@ namespace myun2
 	namespace bitmagick
 	{
 		template <typename T>
-		T filled() { return reverse(zero()); }
+		T filled() { return reverse<T>(zero<T>()); }
 	}
 }
 
